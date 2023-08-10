@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+.navbar .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.navbar .menu a{
+    color: green;
+    text-decoration: none;
+   
+    
+}
+
+.about{
+    
+    text-align: center;
+    padding: 5px;
+}
+.about img{
+    width: 200px;
+    height: 200px;
+    
+    border-radius: 50%;
+    margin-top: 20px;
+    animation: anim 3s 1s 2 ;
+}
+@keyframes anim {
+    0%{
+        width: 0px;
+        height: 0px;
+    }
+    50%{
+        width: 100px;
+        height: 100px;
+    }
+    100%{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.about p{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.section{
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.section h1{
+    text-align: center;
+    padding: 5px;
+}
+.about span{
+    text-align: center;
+}
